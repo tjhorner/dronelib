@@ -1,0 +1,12 @@
+{
+  "name": "dronelib",
+  "version": "1.0.0",
+  "description": "Control your Chinese drone from Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0"
+}
