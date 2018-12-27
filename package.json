@@ -1,6 +1,6 @@
 {
   "name": "dronelib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Control your Chinese drone from Node.js",
   "main": "index.js",
   "scripts": {
