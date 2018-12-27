@@ -32,18 +32,18 @@ drone.takeOff()
 
 ### `throttle`
 
-This is the current throttle of the drone. It ranges from 0-255. Equivalent to pushing the left stick up or down.
+This is the current throttle of the drone. It ranges from 0-254. Equivalent to pushing the left stick up or down.
 
 Set it below 128 to make it go down, set it above 128 to make it go up.
 
 ```javascript
 // FULL THROTTLE!
-drone.throttle = 255
+drone.throttle = 254
 ```
 
 ### `turn`
 
-The current turn value of the drone. It ranges from 0-255. Equivalent to pushing the left stick left or right.
+The current turn value of the drone. It ranges from 0-254. Equivalent to pushing the left stick left or right.
 
 Set it below 128 to make it turn left, set it above 128 to make it turn right.
 
@@ -54,18 +54,18 @@ drone.turn = 0
 
 ### `forwardBackward`
 
-The current forward/backward direction value of the drone. It ranges from 0-255. Equivalent to pushing the right stick up or down.
+The current forward/backward direction value of the drone. It ranges from 0-254. Equivalent to pushing the right stick up or down.
 
 Set it below 128 to make it go forward, set it above 128 to make it go backward.
 
 ```javascript
 // I hope it doesn't run into any trees
-drone.forwardBackward = 255
+drone.forwardBackward = 254
 ```
 
 ### `leftRight`
 
-The current left/right direction value of the drone. It ranges from 0-255. Equivalent to pushing the right stick left or right.
+The current left/right direction value of the drone. It ranges from 0-254. Equivalent to pushing the right stick left or right.
 
 Set it below 128 to make it go left, set it above 128 to make it go right.
 
